@@ -1,0 +1,9 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<h1>Docentes</h1>
+<ul>
+    {% for d in docentes %}
+        <li>{{ d }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
